@@ -1,0 +1,9 @@
+.Title{
+    width: 80%;
+    height: auto;
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 15px 0 0 0;
+}

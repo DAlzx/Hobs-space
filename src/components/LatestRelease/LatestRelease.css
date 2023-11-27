@@ -1,0 +1,101 @@
+.LatestRelease{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    height: 180px;
+    width: 100%;
+    position: relative;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    margin: 50px auto 30px auto ;
+}
+.musicLR{
+    position: absolute;
+    left: 20px;
+    top: -30px;
+    border-radius:10px ;
+    object-fit: cover;
+    object-position:center;
+    height: 120px;
+    width: 120px;
+}
+.containerInfoMusicLR{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    text-align: left;
+    width: calc(100% - 180px);
+}
+.titleLR{
+    font-size: 20px;
+    text-transform: capitalize;
+    white-space: nowrap;
+    text-transform: capitalize;
+    text-align: left;
+    text-overflow: ellipsis;
+    font-weight: 600;
+    overflow: hidden;
+    max-width: 100%;
+    margin: 0;
+}
+.singerLR{
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 500;
+    margin: 5px 0 20px 0 !important;
+}
+.linkPlateform{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% - 40px);
+    left: 20px;
+    position: absolute;
+    bottom: 20px;
+    height: 50px;
+    border-radius: 50px;
+
+}
+.linkImgPlateform{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    width: 30%;
+    cursor: pointer;
+}
+.linkImgPlateform img{
+    height: 25px;
+    width: 25px;
+    object-fit: cover;
+    object-position: center;
+}
+.lineLR{
+    height: 30px;
+    width: 2px;
+    background-color: #f1f1f1;
+    border-radius: 50px;
+}
+.morePlateform{
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 16px;
+    cursor: pointer;
+    padding: 5px 10px;
+    /* border: 1px solid #f1f1f1; */
+    border: none;
+    background-color: transparent;
+    text-transform: capitalize;
+}
+.containerMorePlateform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}

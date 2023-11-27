@@ -1,0 +1,14 @@
+.ReseauSocial{
+    cursor: pointer;
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ReseauSocial img{
+    height: 25px;
+    width: 25px;
+    object-fit: contain;
+    object-position: center;
+}

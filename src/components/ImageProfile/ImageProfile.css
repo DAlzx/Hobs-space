@@ -1,0 +1,29 @@
+.ImageProfile {
+    height: auto;
+    width: min-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative;
+    margin: 0 auto;
+    /*box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.5);*/
+}
+.containerCover.vertical {
+    height: 400px; 
+    width: 300px; 
+    position: relative;
+}  
+.containerCover.horizontal {
+    height: 300px; /* Hauteur calculée pour respecter le format 16:9 (9 / 16 * 400) */
+    width: 450px; /* Largeur fixe, ajustez selon vos besoins */
+    position: relative;
+}  
+.containerCover img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+    object-position: center;
+    z-index: 1;
+}

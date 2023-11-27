@@ -1,0 +1,10 @@
+.ReseauxSociaux{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 80%;
+    height: auto;
+    margin: 10px auto;
+}

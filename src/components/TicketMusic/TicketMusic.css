@@ -1,0 +1,51 @@
+.TicketMusic{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    height: 120px;
+    width: 350px;
+    overflow: hidden;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.music{
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    object-position: center;
+}
+.containerInfoMusic{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+}
+.containerInfoMusic > p{
+    margin: 0;
+}
+.title{
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.singer{
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 11px;
+    margin: 2px 0 20px 0 !important;
+}
+.play{
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 16px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid #f1f1f1;
+    background-color: transparent;
+
+}
