@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Hobs-space/static/css/main.3fdb5cda.css",
+    "main.css": "/Hobs-space/static/css/main.6729e922.css",
     "main.js": "/Hobs-space/static/js/main.1522ab05.js",
     "static/js/787.77685a1b.chunk.js": "/Hobs-space/static/js/787.77685a1b.chunk.js",
     "static/media/cover.jpg": "/Hobs-space/static/media/cover.09c5f7cf89866fda4b56.jpg",
@@ -16,12 +16,12 @@
     "static/media/spotify.svg": "/Hobs-space/static/media/spotify.6ce1f57181e27a4d5716a7235fd8b41a.svg",
     "static/media/apple-itunes.svg": "/Hobs-space/static/media/apple-itunes.da8d2ab370a6d6119dde4047b4c2917e.svg",
     "index.html": "/Hobs-space/index.html",
-    "main.3fdb5cda.css.map": "/Hobs-space/static/css/main.3fdb5cda.css.map",
+    "main.6729e922.css.map": "/Hobs-space/static/css/main.6729e922.css.map",
     "main.1522ab05.js.map": "/Hobs-space/static/js/main.1522ab05.js.map",
     "787.77685a1b.chunk.js.map": "/Hobs-space/static/js/787.77685a1b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3fdb5cda.css",
+    "static/css/main.6729e922.css",
     "static/js/main.1522ab05.js"
   ]
 }
