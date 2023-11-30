@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Hobs-space/static/css/main.d3ff3244.css",
-    "main.js": "/Hobs-space/static/js/main.284e7be0.js",
+    "main.css": "/Hobs-space/static/css/main.3fdb5cda.css",
+    "main.js": "/Hobs-space/static/js/main.faf9fe4f.js",
     "static/js/787.77685a1b.chunk.js": "/Hobs-space/static/js/787.77685a1b.chunk.js",
     "static/media/cover.jpg": "/Hobs-space/static/media/cover.09c5f7cf89866fda4b56.jpg",
     "static/media/logo.png": "/Hobs-space/static/media/logo.6751f1b40977b939594e.png",
@@ -12,13 +12,16 @@
     "static/media/itunes.png": "/Hobs-space/static/media/itunes.8f8702ca96b6ce025da1.png",
     "static/media/twitter.png": "/Hobs-space/static/media/twitter.e4f83bef4191a65e9c7d.png",
     "static/media/facebook.png": "/Hobs-space/static/media/facebook.5df529b10ff7fc14e648.png",
+    "static/media/deezer.svg": "/Hobs-space/static/media/deezer.5b84003bf062220f667578cdd1e573ed.svg",
+    "static/media/spotify.svg": "/Hobs-space/static/media/spotify.6ce1f57181e27a4d5716a7235fd8b41a.svg",
+    "static/media/apple-itunes.svg": "/Hobs-space/static/media/apple-itunes.da8d2ab370a6d6119dde4047b4c2917e.svg",
     "index.html": "/Hobs-space/index.html",
-    "main.d3ff3244.css.map": "/Hobs-space/static/css/main.d3ff3244.css.map",
-    "main.284e7be0.js.map": "/Hobs-space/static/js/main.284e7be0.js.map",
+    "main.3fdb5cda.css.map": "/Hobs-space/static/css/main.3fdb5cda.css.map",
+    "main.faf9fe4f.js.map": "/Hobs-space/static/js/main.faf9fe4f.js.map",
     "787.77685a1b.chunk.js.map": "/Hobs-space/static/js/787.77685a1b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d3ff3244.css",
-    "static/js/main.284e7be0.js"
+    "static/css/main.3fdb5cda.css",
+    "static/js/main.faf9fe4f.js"
   ]
 }
