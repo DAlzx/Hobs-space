@@ -2,12 +2,10 @@ import React from 'react'
 import './Video.css';
 
 function Video(props) {
-
  
     return (
         <div className='Video'>
-            <p className='titleVideo'>{props.title} </p>
-            <img className='miniature' src={props.miniature} alt='music' />
+            <iframe className='miniature' src={`https://www.youtube.com/embed/${props.id}?si=01WdlReneaXAcW1h`} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     );
 }

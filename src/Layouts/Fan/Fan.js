@@ -7,7 +7,7 @@ function Fan(props) {
  
     return (
         <div className='Fan'>
-            <Title title={"S.I.N. Fan Club"} marginBottom={true}/>
+            <Title id={props.id} title={props.title} marginBottom={true}/>
             <Ticket title={"Le title du ticket"} img={props.img} color={props.color} link={props.link} />
         </div>
     );

@@ -20,7 +20,7 @@ function Shop(props) {
  
     return (
         <div className='Shop'>
-            <Title title={"Shop"} marginBottom={true}/>
+            <Title id={props.id} title={props.title} marginBottom={true}/>
             <Ticket title={"Le title du ticket"} price={"$109.99"} img={props.img} color={props.color} link={props.link} />
             <Ticket title={"Le title du ticket"} price={"$109.99"} img={props.img} color={props.color} link={props.link} />
             <Ticket title={"Le title du ticket"} price={"$109.99"} img={props.img} color={props.color} link={props.link} />    

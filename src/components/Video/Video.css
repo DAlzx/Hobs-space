@@ -20,3 +20,8 @@
     left: 20px;
     display: none;
 }
+
+.ytp-large-play-button{
+    background-color: rgba(0,0,0,0.5) !important;
+    position: relative !important;
+}

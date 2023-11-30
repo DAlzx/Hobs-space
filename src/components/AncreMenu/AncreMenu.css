@@ -1,5 +1,6 @@
-.AncreMenu{
+.js-anchor-link{
     white-space: nowrap;
     text-decoration: none;
     text-transform: capitalize;
+    transition: all 0.5s ease-in-out;
 }

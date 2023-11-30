@@ -1,0 +1,54 @@
+.modal{
+    border-radius: 20px;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 450px !important;
+    height: min-content;
+    z-index: 1000;
+    padding: 2px;
+    overflow: hidden;
+    position: absolute;
+    border: none;
+}
+
+.closeModal{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    right: 24px;
+    top: 24px;
+    background-color: transparent;
+    border: none;
+    -webkit-display: flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+    cursor: pointer;
+    transition:0.5s;
+}
+.closeModal:hover {
+    scale: 0.8;
+}
+
+
+.lineClose{
+    width: 90%;
+    background-color: #FFFFFF;
+    height: 2PX;
+    border-radius: 50px;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+}
+
+.lineClose:nth-child(1){
+    transform: rotate(45deg);
+}
+
+.lineClose:nth-child(2){
+    transform: rotate(-45deg);
+}

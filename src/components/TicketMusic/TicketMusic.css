@@ -24,6 +24,8 @@
     align-items: flex-start;
     justify-content: center;
     padding: 20px;
+    position: relative;
+    width: 190px;
 }
 .containerInfoMusic > p{
     margin: 0;
@@ -31,12 +33,22 @@
 .title{
     font-size: 16px;
     text-transform: capitalize;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: 600;
+    overflow: hidden;
+    max-width: 100%;
 }
 .singer{
     text-transform: capitalize;
     color: rgba(255, 255, 255, 0.6);
     font-size: 11px;
     margin: 2px 0 20px 0 !important;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: 600;
+    overflow: hidden;
+    max-width: 100%;
 }
 .play{
     border-radius: 50px;
