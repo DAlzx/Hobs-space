@@ -29,6 +29,7 @@
   object-fit: cover;
   object-position: top;
   z-index: 0;
+  display: none;
 }
 .imgLogo{
   width: 450px;
