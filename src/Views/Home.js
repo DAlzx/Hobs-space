@@ -38,18 +38,16 @@ function Home() {
     const [videos, setVideos] = useState(null);
     const [videosLR, setVideosLR] = useState(null);
     const [spotify, setSpotify] = useState(null);
-    const [img, setImg] = useState(null);
 
     useEffect(() => {
         async function fetchData() {
-            //const channelVideos = await fetchLatestVideos(6);
-            //const videoLR = await fetchLatestVideos(2);
+            const channelVideos = await fetchLatestVideos(6);
+            const videoLR = await fetchLatestVideos(2);
             const spotifyData = await fetchSpotifyInfo();
-            //setVideos(channelVideos.data.items);
-            //setVideosLR(videoLR.data.items);
+            setVideos(channelVideos.data.items);
+            setVideosLR(videoLR.data.items);
             setSpotify(spotifyData);
-            console.log("----------",spotifyData.spotifyAlbums.data.items[0].images[1].url);
-            setImg(spotifyData.spotifyAlbums.data.items[0].images[1].url);
+            console.log("----------",videoLR);
             setIsLoaded(true);
         }
         fetchData();
@@ -65,9 +63,9 @@ function Home() {
                         <Menu color={colorFont} menu={menu} />
                         <Ticket title={"Le title du ticket"} price={"$109.99"} img={Cover} color={colorFont} link={linkTest} />
                         <div className='lineSeparation'></div>
-                        <LatestRelease id={formatAncre("Latest Release")} title={"Latest Release"} bgd={bgdContainer} color={colorFont} music={spotify ? spotify.spotifylatestAlbumTracks.data.items[0] : null} img={spotify ? spotify.spotifyAlbums.data.items[0].images[1].url : null}/>
+                        <LatestRelease id={formatAncre("Latest Release")} title={"Latest Release"} bgd={bgdContainer} color={colorFont} videos={videosLR} music={spotify ? spotify.spotifylatestAlbumTracks.data.items[0] : null} img={spotify ? spotify.spotifyAlbums.data.items[0].images[1].url : null}/>
                         <div className='lineSeparation'></div>
-                        <SliderColumn id={"Maroon 5 Live"} column={true} title={"Maroon 5 Live"} ticket={ticketConcert} color={colorFont} link={linkTest} bgd={bgdContainer}  />
+                        <SliderColumn id={"Maroon 5 Live"} column={true} title={"Maroon 5 Live"} tickets={ticketConcert} color={colorFont} link={linkTest} bgd={bgdContainer}  />
                         <div className='lineSeparation'></div>
                         <Shop id={formatAncre("Shop")} title={"Shop"} bgd={bgdContainer} color={colorFont} img={Cover} video={Cover} link={linkTest} />
                         <div className='lineSeparation'></div>

@@ -22,7 +22,7 @@ function SliderColumn(props) {
     
 
     useEffect(() => {
-        console.log("+++++",musics);
+        
     }, [])
 
     return (
@@ -30,6 +30,11 @@ function SliderColumn(props) {
             <Title id={props.id} title={props.title} marginBottom={true}/>
             {props.musics ?
                 <Slider column={props.column} components={musics} color={props.color} />
+            :
+                null
+            }
+            {props.tickets ?
+                <Slider column={props.column} components={props.tickets} color={props.color} />
             :
                 null
             }

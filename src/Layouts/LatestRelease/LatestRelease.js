@@ -19,7 +19,6 @@ function LatestRelease(props) {
           />
         ))
       : null;
-
  
     return (
         <div className='LatestReleaseLayout'>
