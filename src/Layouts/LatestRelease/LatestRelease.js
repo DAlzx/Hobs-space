@@ -6,7 +6,7 @@ import Slider from '../../components/Slider/Slider';
 import Video from '../../components/Video/Video';
 
 function LatestRelease(props) {
-
+    const deezer = props.deezer[2].tracks.data[0];
     const videos =
     props.videos
       ? props.videos.map((video, index) => (
@@ -23,7 +23,7 @@ function LatestRelease(props) {
     return (
         <div className='LatestReleaseLayout'>
             <Title id={props.id} title={props.title} marginBottom={true}/>
-            <LatestReleaseComponent music={props.music} bgd={props.bgd} color={props.color} img={props.img} />
+            <LatestReleaseComponent music={props.music} bgd={props.bgd} color={props.color} img={props.img} deezer={deezer} />
             {props.videos ?
                 <Slider link={props.link} components={videos} color={props.color} />
             :

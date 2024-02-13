@@ -121,3 +121,24 @@
     justify-content: center;
     gap: 5px;
 }
+
+@media (max-width: 650px) {  
+    .TicketConcert {
+        width: 300px;
+    }
+    .event {
+        font-size: 14px;
+        text-align: left;
+    }
+    .containerDateConcert {
+        margin: 0px 15px;
+    }
+}
+@media (max-width: 360px) {  
+    .TicketConcert {
+        width: 270px;
+    }
+    .containerInfoConcert {
+        padding: 15px;
+    }
+}

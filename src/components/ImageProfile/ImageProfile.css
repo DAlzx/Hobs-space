@@ -27,3 +27,44 @@
     object-position: center;
     z-index: 1;
 }
+@media screen and (min-width: 460px) and (max-width: 650px) {  
+    .containerCover.horizontal {
+      height: 280px;
+      width: 400px;
+      position: relative;
+    }
+    .imgLogo {
+        width: 400px;
+    }
+}
+@media screen and (min-width: 420px) and (max-width: 460px) {  
+    .containerCover.horizontal {
+      height: 240px;
+      width: 350px;
+      position: relative;
+    }
+    .imgLogo {
+        width: 350px;
+    }
+}
+@media screen and (min-width: 350px) and (max-width: 420px) {  
+    .containerCover.horizontal {
+      height: 200px;
+      width: 300px;
+      position: relative;
+    }
+    .imgLogo {
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 350px) {  
+    .containerCover.horizontal {
+      height: 180px;
+      width: 270px;
+      position: relative;
+    }
+    .imgLogo {
+        width: 250px;
+    }
+}

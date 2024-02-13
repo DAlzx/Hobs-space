@@ -2,7 +2,7 @@ import React from 'react'
 import './ModalMusic.css';
 import Spotify from '../../../assets/spotify.svg';
 import Itunes from '../../../assets/apple-itunes.svg';
-import Deezer from '../../../assets/deezer.svg';
+import Deezer from '../../../assets/deezer.png';
 
 function ModalMusic(props) {
 

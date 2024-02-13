@@ -5,10 +5,12 @@ import Home from "./Views/Home";
 
 function App() {
 
+    const namespace = "maroon-5";
+
     return (
       <div className="App">
           <Routes>
-              <Route path="/" element={ <Home/> } />
+              <Route path={`/${namespace}`} element={ <Home/> } />
           </Routes>
       </div>
   );

@@ -100,3 +100,46 @@
     justify-content: center;
     width: 30%;
 }
+
+@media (max-width: 425px) {  
+    .linkImgPlateform img {
+        height: 22px;
+        width: 22px;
+    }
+    .linkImgPlateform p{
+        font-size: 14px;
+    }
+    .morePlateform {
+        font-size: 14px;
+    }
+    .titleLR {
+        font-size: 16px;
+    }
+    .singerLR {
+        font-size: 12px;
+        margin: 5px 0 10px 0 !important;
+    }
+}
+
+@media (max-width: 350px) {  
+    .linkImgPlateform img {
+        height: 20px;
+        width: 20px;
+    }
+    .LatestRelease {
+        height: 160px;
+    }
+    .linkPlateform {
+        width: calc(100% - 20px);
+        left: 10px;
+    }
+    .musicLR {
+        left: 10px;
+        height: 100px;
+        width: 100px;
+    }
+    .containerInfoMusicLR {
+        right: 10px;
+        width: calc(100% - 140px);
+    }
+}

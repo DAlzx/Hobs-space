@@ -7,3 +7,9 @@
     font-weight: 500;
     margin: 15px 0 0 0;
 }
+
+@media (max-width: 500px) {  
+    .Title {
+        width: 100%;
+    }
+}

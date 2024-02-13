@@ -31,6 +31,7 @@ function TicketMusic(props) {
                 color={props.color}
                 bgd={props.bgd}
                 spotifyLink={props.spotify}
+                deezerLink={props.deezer}
             />
         </div>
     );

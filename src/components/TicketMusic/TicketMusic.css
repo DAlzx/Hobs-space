@@ -61,3 +61,28 @@
     background-color: transparent;
 
 }
+
+
+@media (max-width: 425px) {  
+    .TicketMusic {
+        width: 300px;
+    }
+    .title {
+        max-width: 80%;
+        font-size: 14px;
+    }
+    .singer {
+        max-width: 80%;
+    }
+}
+@media (max-width: 350px) {  
+    .TicketMusic {
+        width: 270px;
+    }
+    .title {
+        max-width: 60%;
+    }
+    .singer {
+        max-width: 60%;
+    }
+}

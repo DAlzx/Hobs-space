@@ -55,6 +55,7 @@ function LatestRelease(props) {
                     color={props.color}
                     bgd={props.bgd}
                     spotifyLink={music.id}
+                    deezerLink={props.deezer.link}
                 />
             </>
             :

@@ -1,6 +1,7 @@
 {
   "name": "hobs-space",
   "homepage": "https://dalzx.github.io/Hobs-space/",
+  "proxy": "http://localhost:5000",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,6 +9,8 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.6.2",
+    "express": "^4.18.2",
+    "firebase": "^10.7.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-modal": "^3.16.1",
@@ -22,7 +25,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "dev": "concurrently \"npm start\" \"node src/services/server.js\""
   },
   "eslintConfig": {
     "extends": [
@@ -43,6 +47,7 @@
     ]
   },
   "devDependencies": {
+    "concurrently": "^8.2.2",
     "gh-pages": "^6.1.0"
   }
 }
