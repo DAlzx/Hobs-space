@@ -25,3 +25,16 @@
     background-color: rgba(0,0,0,0.5) !important;
     position: relative !important;
 }
+
+@media (max-width: 425px) {  
+    .Video {
+        height: 178px;
+        width: 300px;
+    }
+}
+@media (max-width: 360px) {  
+    .Video {
+        height: 157px;
+        width: 270px;
+    }
+}

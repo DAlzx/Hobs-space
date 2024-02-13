@@ -57,10 +57,9 @@ function Home() {
     
 
     useEffect(() => {
-        var dictTracks = {};
         async function fetchData() {
-            //const channelVideos = await fetchLatestVideos(6);
-            //const videoLR = await fetchLatestVideos(2);
+            const channelVideos = await fetchLatestVideos(6);
+            const videoLR = await fetchLatestVideos(2);
             const spotifyData = await fetchSpotifyInfo();
             const deezerArtistAlbum = await fetchArtistAlbum();
             const deezerArtistInfo = await fetchArtistInfo();
@@ -71,8 +70,8 @@ function Home() {
                 spotifyTracksObject[transformerChaine(object.name)] = transformerChaine(object.artists[0].name);
             }
             const deezerBestTrack = await fetchBestTracks(spotifyTracksObject);
-            //setVideos(channelVideos.data.items);
-            //setVideosLR(videoLR.data.items);
+            setVideos(channelVideos.data.items);
+            setVideosLR(videoLR.data.items);
             setDeezer([deezerBestTrack, deezerAlbum, deezerArtistAlbum, deezerArtistInfo, spotifyData.spotifyTracks.data.tracks]);
             setSpotify(spotifyData);
             setIsLoaded(true);
