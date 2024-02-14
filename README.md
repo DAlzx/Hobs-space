@@ -69,3 +69,40 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+Voici les étapes détaillées avec les commandes pour déployer manuellement un site sur GitHub Pages :
+
+Créez une branche gh-pages :
+
+bash
+Copy code
+git checkout -b gh-pages
+Générez vos fichiers de construction :
+Utilisez l'outil de construction de votre projet pour générer les fichiers de votre site. Par exemple, si vous utilisez npm :
+
+bash
+Copy code
+npm run build
+Copiez les fichiers de construction :
+Copiez les fichiers générés (HTML, CSS, JavaScript, images, etc.) depuis le répertoire de construction vers le répertoire racine du projet.
+
+Ajoutez les fichiers au suivi Git :
+Ajoutez les fichiers nouvellement générés au suivi Git :
+
+bash
+Copy code
+git add .
+Effectuez un commit :
+Committez les fichiers ajoutés avec un message descriptif :
+
+bash
+Copy code
+git commit -m "Ajout des fichiers de construction pour GitHub Pages"
+Poussez les changements sur la branche gh-pages :
+Poussez les modifications sur la branche gh-pages de votre référentiel GitHub :
+
+bash
+Copy code
+git push origin gh-pages
+Une fois ces étapes terminées, votre site devrait être déployé sur GitHub Pages à partir de la branche gh-pages. Vous pourrez y accéder via l'URL spécifiée dans les paramètres de GitHub Pages pour votre référentiel. Assurez-vous que les paramètres de votre référentiel sont configurés pour utiliser la branche gh-pages comme source pour GitHub Pages.
