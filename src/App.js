@@ -12,6 +12,7 @@ function App() {
           <Routes>
               <Route path={`/${namespace}`} element={ <Home/> } />
           </Routes>
+          <a href="maroon-5">Go profil</a>
       </div>
   );
 }
