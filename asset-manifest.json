@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Hobs-space/static/css/main.b54fa36e.css",
+    "main.js": "/Hobs-space/static/js/main.064e9a72.js",
+    "static/js/787.77685a1b.chunk.js": "/Hobs-space/static/js/787.77685a1b.chunk.js",
+    "static/media/cover.jpg": "/Hobs-space/static/media/cover.09c5f7cf89866fda4b56.jpg",
+    "static/media/logo.png": "/Hobs-space/static/media/logo.6751f1b40977b939594e.png",
+    "static/media/web.png": "/Hobs-space/static/media/web.3eafd259070c89e7bbcb.png",
+    "static/media/spotify.png": "/Hobs-space/static/media/spotify.8435a88fa5632b2daac2.png",
+    "static/media/insta.png": "/Hobs-space/static/media/insta.03c746b70e97ed85e24a.png",
+    "static/media/tiktok.png": "/Hobs-space/static/media/tiktok.6422bbfa4e346fd36afe.png",
+    "static/media/itunes.png": "/Hobs-space/static/media/itunes.8f8702ca96b6ce025da1.png",
+    "static/media/twitter.png": "/Hobs-space/static/media/twitter.e4f83bef4191a65e9c7d.png",
+    "static/media/facebook.png": "/Hobs-space/static/media/facebook.5df529b10ff7fc14e648.png",
+    "static/media/spotify.svg": "/Hobs-space/static/media/spotify.6ce1f57181e27a4d5716a7235fd8b41a.svg",
+    "static/media/apple-itunes.svg": "/Hobs-space/static/media/apple-itunes.da8d2ab370a6d6119dde4047b4c2917e.svg",
+    "index.html": "/Hobs-space/index.html",
+    "main.b54fa36e.css.map": "/Hobs-space/static/css/main.b54fa36e.css.map",
+    "main.064e9a72.js.map": "/Hobs-space/static/js/main.064e9a72.js.map",
+    "787.77685a1b.chunk.js.map": "/Hobs-space/static/js/787.77685a1b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b54fa36e.css",
+    "static/js/main.064e9a72.js"
+  ]
+}
