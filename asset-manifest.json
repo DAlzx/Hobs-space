@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Hobs-space/static/css/main.b54fa36e.css",
-    "main.js": "/Hobs-space/static/js/main.9b7c6eaf.js",
+    "main.js": "/Hobs-space/static/js/main.e8305e5d.js",
     "static/js/787.77685a1b.chunk.js": "/Hobs-space/static/js/787.77685a1b.chunk.js",
     "static/media/cover.jpg": "/Hobs-space/static/media/cover.09c5f7cf89866fda4b56.jpg",
     "static/media/logo.png": "/Hobs-space/static/media/logo.6751f1b40977b939594e.png",
@@ -16,11 +16,11 @@
     "static/media/apple-itunes.svg": "/Hobs-space/static/media/apple-itunes.da8d2ab370a6d6119dde4047b4c2917e.svg",
     "index.html": "/Hobs-space/index.html",
     "main.b54fa36e.css.map": "/Hobs-space/static/css/main.b54fa36e.css.map",
-    "main.9b7c6eaf.js.map": "/Hobs-space/static/js/main.9b7c6eaf.js.map",
+    "main.e8305e5d.js.map": "/Hobs-space/static/js/main.e8305e5d.js.map",
     "787.77685a1b.chunk.js.map": "/Hobs-space/static/js/787.77685a1b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b54fa36e.css",
-    "static/js/main.9b7c6eaf.js"
+    "static/js/main.e8305e5d.js"
   ]
 }
