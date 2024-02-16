@@ -1,6 +1,6 @@
 import React from "react";
 import './App.css';
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Home from "./Views/Home";
 
 function App() {
@@ -10,9 +10,8 @@ function App() {
     return (
       <div className="App">
           <Routes>
-              <Route path={`/${namespace}`} element={ <Home/> } />
+              <Route path={`/`} element={ <Home/> } />
           </Routes>
-          <Link to={`/${namespace}`}>Go profil</Link>
       </div>
   );
 }
