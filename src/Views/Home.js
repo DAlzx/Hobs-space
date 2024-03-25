@@ -31,7 +31,7 @@ function Home() {
     const itunes = {bool: false, link: "https://www.facebook.com/Cliquetv"};
     const linkedin = {bool: false, link: "https://www.facebook.com/Cliquetv"};
     const web = {bool: true, link: "https://www.clique.tv/"};
-    const menu = [ "Une journée avec Hamza", "Clique x Aya Nakamura", "Clique x Mbappé", "Clique Wembanyama", "Clique x Elodie Costa", "Clique x Francis Cabrel", "Clique x Albert Dupontel", "Clique x Daniel Ek"];
+    const menu = ["Dernières Vidéos", "Une journée avec Hamza", "Clique x Aya Nakamura", "Clique x Mbappé", "Clique Wembanyama", "Clique x Elodie Costa", "Clique x Francis Cabrel", "Clique x Albert Dupontel", "Clique x Daniel Ek"];
     
     const ticketConcert = [
         <TicketConcert event={"Les vieilles charrues"} where={"Carhaix, Bretagne"} ticket={false} mounth={"Juillet"} day={"1"} year={"2024"} color={colorFont} bgd={bgdContainer} link={insta.link} />,
