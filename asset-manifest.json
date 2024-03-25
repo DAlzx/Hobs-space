@@ -1,26 +1,35 @@
 {
   "files": {
-    "main.css": "/Hobs-space/static/css/main.b54fa36e.css",
-    "main.js": "/Hobs-space/static/js/main.8ea7aaa0.js",
+    "main.css": "/Hobs-space/static/css/main.09f59552.css",
+    "main.js": "/Hobs-space/static/js/main.b2728a9b.js",
     "static/js/787.77685a1b.chunk.js": "/Hobs-space/static/js/787.77685a1b.chunk.js",
+    "static/media/fa-solid-900.ttf": "/Hobs-space/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
     "static/media/cover.jpg": "/Hobs-space/static/media/cover.09c5f7cf89866fda4b56.jpg",
+    "static/media/fa-brands-400.ttf": "/Hobs-space/static/media/fa-brands-400.6205fd00fb1b573e9f0f.ttf",
+    "static/media/fa-solid-900.woff2": "/Hobs-space/static/media/fa-solid-900.fb8184add5a3101ad0a3.woff2",
+    "static/media/fa-brands-400.woff2": "/Hobs-space/static/media/fa-brands-400.8d3cabfc66809162fb4d.woff2",
+    "static/media/fa-regular-400.ttf": "/Hobs-space/static/media/fa-regular-400.adc51aab4d771ab65f81.ttf",
     "static/media/logo.png": "/Hobs-space/static/media/logo.6751f1b40977b939594e.png",
     "static/media/web.png": "/Hobs-space/static/media/web.3eafd259070c89e7bbcb.png",
     "static/media/spotify.png": "/Hobs-space/static/media/spotify.8435a88fa5632b2daac2.png",
     "static/media/insta.png": "/Hobs-space/static/media/insta.03c746b70e97ed85e24a.png",
+    "static/media/fa-regular-400.woff2": "/Hobs-space/static/media/fa-regular-400.e931bc0d14f5bbb1da22.woff2",
     "static/media/tiktok.png": "/Hobs-space/static/media/tiktok.6422bbfa4e346fd36afe.png",
     "static/media/itunes.png": "/Hobs-space/static/media/itunes.8f8702ca96b6ce025da1.png",
+    "static/media/cliqueLogo.jpg": "/Hobs-space/static/media/cliqueLogo.7993a8f6ef94e0cd32ff.jpg",
     "static/media/twitter.png": "/Hobs-space/static/media/twitter.e4f83bef4191a65e9c7d.png",
     "static/media/facebook.png": "/Hobs-space/static/media/facebook.5df529b10ff7fc14e648.png",
+    "static/media/fa-v4compatibility.ttf": "/Hobs-space/static/media/fa-v4compatibility.2eb7b3ef25042305f3ff.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Hobs-space/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
     "static/media/spotify.svg": "/Hobs-space/static/media/spotify.6ce1f57181e27a4d5716a7235fd8b41a.svg",
     "static/media/apple-itunes.svg": "/Hobs-space/static/media/apple-itunes.da8d2ab370a6d6119dde4047b4c2917e.svg",
     "index.html": "/Hobs-space/index.html",
-    "main.b54fa36e.css.map": "/Hobs-space/static/css/main.b54fa36e.css.map",
-    "main.8ea7aaa0.js.map": "/Hobs-space/static/js/main.8ea7aaa0.js.map",
+    "main.09f59552.css.map": "/Hobs-space/static/css/main.09f59552.css.map",
+    "main.b2728a9b.js.map": "/Hobs-space/static/js/main.b2728a9b.js.map",
     "787.77685a1b.chunk.js.map": "/Hobs-space/static/js/787.77685a1b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b54fa36e.css",
-    "static/js/main.8ea7aaa0.js"
+    "static/css/main.09f59552.css",
+    "static/js/main.b2728a9b.js"
   ]
 }
