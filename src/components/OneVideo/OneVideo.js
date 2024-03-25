@@ -5,8 +5,8 @@ import Title from '../Title/Title';
 function OneVideo(props) {
  
     return (
-        <div className='SectionOneVideo'>
-            <p className='TitleOneVideo' id={props.ancre}>
+        <div className='SectionOneVideo' id={props.ancre}>
+            <p className='TitleOneVideo'>
                 {props.title}
             </p>
             <div className='OneVideo'>

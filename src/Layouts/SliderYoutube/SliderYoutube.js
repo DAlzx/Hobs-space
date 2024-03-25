@@ -25,7 +25,7 @@ function SliderYoutube(props) {
 
   return (
     <div className="SliderYoutube">
-      <Title id={props.id} title={props.title} marginBottom={true} />
+      <Title id={props.ancre} title={props.title} marginBottom={true} />
       {props.videos ?
         <Slider link={props.link} components={videos} color={props.color} />
       : 

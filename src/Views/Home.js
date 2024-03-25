@@ -97,10 +97,10 @@ function Home() {
                         <Logo image={logo} bdg={bgdContainer} imgLogo={false} title={""} />
                         <ReseauxSociaux instagram={insta} facebook={facebook} x={x} youtube={youtube} tiktok={tiktok} spotify={spfy} itunes={itunes} linkedin={linkedin} web={web} />
                         <Menu color={colorFont} menu={menu} />
-                        {/* <Ticket title={"Le title du ticket"} price={"$109.99"} img={Cover} color={colorFont} link={insta.link} /> */}
-                        <SliderYoutube title={'Dernières vidéos'} color={colorFont} videos={videos} link={insta.link} /> 
+                        <SliderYoutube title={'Dernières vidéos'} color={colorFont} videos={videos} link={insta.link} ancre={formatAncre("Dernières Vidéos")} /> 
                         <div className='lineSeparation'></div>
-                        <OneVideo ancre={formatAncre("Une journée avec Hamza")} id={"Jd5YhQWzDmU"} title={"Une journée avec Hamza"} />
+                        {/* <Ticket title={"Le title du ticket"} price={"$109.99"} img={Cover} color={colorFont} link={insta.link} /> */}
+                         <OneVideo ancre={formatAncre("Une journée avec Hamza")} id={"Jd5YhQWzDmU"} title={"Une journée avec Hamza"} />
                         <div className='lineSeparation'></div>
                         {/*<LatestRelease id={formatAncre("Latest Release")} title={"Latest Release"} bgd={bgdContainer} color={colorFont} videos={videosLR} music={spotify ? spotify.spotifylatestAlbumTracks.data.items[0] : null} deezer={deezer ? deezer : null} img={spotify ? spotify.spotifyAlbums.data.items[0].images[1].url : null}/>
                         <div className='lineSeparation'></div>
