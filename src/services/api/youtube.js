@@ -27,8 +27,8 @@ export const fetchLatestVideos = async (nb = 10) => {
 export const fetchVideo = async () => {
     console.log(apiKey);
     try {
-        const response = await axios.get(`https://www.googleapis.com/youtube/v3/videos?id=09R8_2nJtjg&key=${apiKey}&part=snippet,contentDetails,statistics`);
-
+        const response = await axios.get(`https://www.googleapis.com/youtube/v3/videos?id=CqUV-hqIwBE&key=${apiKey}&part=snippet,contentDetails,statistics`);
+        console.log(response.data);
         return response.data;
     } catch (error) {
         console.error('Erreur lors de la requête YouTube :', error);

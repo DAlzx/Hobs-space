@@ -18,15 +18,15 @@ function ReseauxSociaux(props) {
  
     return (
         <div className='ReseauxSociaux'>
-            {props.instagram ? <ReseauSocial img={instagram} link={"https://www.instagram.com/"} /> : null}
-            {props.facebook ? <ReseauSocial img={facebook} link={"https://www.instagram.com/"} /> : null}
-            {props.twitter ? <ReseauSocial img={twitter} link={"https://www.instagram.com/"} white={true} /> : null}
-            {props.youtube ? <ReseauSocial img={youtube} link={"https://www.instagram.com/"} white={true} /> : null}
-            {props.tiktok ? <ReseauSocial img={tiktok} link={"https://www.instagram.com/"} /> : null}
-            {props.spotify ? <ReseauSocial img={spotify} link={"https://www.instagram.com/"} /> : null}
-            {props.itunes ? <ReseauSocial img={itunes} link={"https://www.instagram.com/"} /> : null}
-            {props.linkedin ? <ReseauSocial img={linkedin} link={"https://www.instagram.com/"} white={true} /> : null}
-            {props.web ? <ReseauSocial img={web} link={"https://www.instagram.com/"} /> : null}
+            {props.instagram.bool ? <ReseauSocial img={instagram} link={props.instagram.link} /> : null}
+            {props.facebook.bool ? <ReseauSocial img={facebook} link={props.facebook.link} /> : null}
+            {props.x.bool ? <ReseauSocial img={twitter} link={props.x.link} white={true} /> : null}
+            {props.youtube.bool ? <ReseauSocial img={youtube} link={props.youtube.link} white={true} /> : null}
+            {props.tiktok.bool ? <ReseauSocial img={tiktok} link={props.tiktok.link} /> : null}
+            {props.spotify.bool ? <ReseauSocial img={spotify} link={props.spotify.link} /> : null}
+            {props.itunes.bool ? <ReseauSocial img={itunes} link={props.itunes.link} /> : null}
+            {props.linkedin.bool ? <ReseauSocial img={linkedin} link={props.linkedin.link} white={true} /> : null}
+            {props.web.bool ? <ReseauSocial img={web} link={props.web.link} /> : null}
         </div>
     );
 }

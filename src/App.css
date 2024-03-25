@@ -12,6 +12,17 @@
   flex-direction: column;
   padding-bottom: 100px;
 }
+.Dashboard{
+  text-align: center;
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-bottom: 100px;
+  overflow-x: hidden;
+}
 .containerHome{
   border-radius: 20px;
   height: auto;

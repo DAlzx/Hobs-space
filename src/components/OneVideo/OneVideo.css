@@ -1,0 +1,50 @@
+.SectionOneVideo{
+    border-radius: 20px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.OneVideo{
+    border-radius: 20px;
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Oneminiature{
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.TitleOneVideo{
+    width: 80%;
+    height: auto;
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0 0 15px 0;
+}
+
+.ytp-large-play-button{
+    background-color: rgba(0,0,0,0.5) !important;
+    position: relative !important;
+}
+
+@media (max-width: 500px) {  
+    .TitleOneVideo {
+        width: 100%;
+    }
+}

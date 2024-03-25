@@ -1,0 +1,72 @@
+.InputField{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 100%;
+    height: auto;
+}
+.InputFieldTitle{
+    font-size: 14px;
+    margin: 0;
+}
+.InputFieldInput[type="text"]{
+    background-color: rgba(0, 0, 0, 0.15);
+    border: 1px solid #ff8500;
+    border-radius: 5px;
+    padding: 5px 10px;
+    outline: none;
+    color: #fff;
+}
+.InputFieldInput::placeholder{
+    color: #ff8500;
+}
+.InputFieldInput:focus {
+    border-color: #ff8500;
+}
+/* Style de base pour l'input de type color */
+.InputFieldInput[type="color"] {
+    border: none; /* Supprime la bordure par défaut */
+    border-radius: 5px;
+    outline: none; /* Supprime la bordure bleue lorsqu'il est sélectionné */
+}
+
+/* Style pour l'input de type file */
+.InputFieldInput[type="file"] {
+    
+}
+
+/* Style pour le bouton "Parcourir" à côté de l'input de type file */
+.InputFieldInput[type="file"]::-webkit-file-upload-button {
+    background-color: rgba(0, 0, 0, 0.15);
+    border: 1px solid #ff8500;
+    color: #ff8500;
+    border-radius: 5px;
+    padding: 5px 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+/* Style pour le bouton "Parcourir" à côté de l'input de type file lorsqu'il est en hover */
+#fileInputLabel:hover {
+    background-color: #ff8500;
+    color: #fff;
+}
+#fileInputLabel{
+    background-color: rgba(0, 0, 0, 0.15);
+    border: 1px solid #ff8500;
+    color: #ff8500;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 12px;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.errorMessageInputField{
+    font-size: 10px;
+    color: red;
+    text-align: left;
+    margin: 0;
+}

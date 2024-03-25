@@ -1,0 +1,33 @@
+.SpaceName{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    height: 50px;
+    width: auto;
+    gap: 10px;
+    padding: 10px 20px;
+}
+.profilSpacename{
+    height: 40px;
+    width: 40px;
+    border-radius: 999px;
+    object-fit: cover;
+    object-position: center;
+}
+.linkSpacename{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 4px;
+    height: 50px;
+    width: auto;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.racineSpacename{
+    font-weight: 100;
+}

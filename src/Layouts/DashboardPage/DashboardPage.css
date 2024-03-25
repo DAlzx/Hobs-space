@@ -1,0 +1,76 @@
+.DashboardPage{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    gap: 50px;
+    padding: 50px 0;
+}
+.menuLeft{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    background-color: rgba(0,0,0,0.15);
+}
+.settings{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+    border-radius: 15px;
+    padding: 20px;
+    width: 50%;
+    background-color: rgba(0,0,0,0.15);
+}
+.SectionSettings{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: auto;
+}
+.containerTitleSettings{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.titleSectionSettings{
+    text-align: left;
+    font-size: 24px;
+    margin: 0;
+    font-weight: 500;
+}
+.lineTitleSectionSettings{
+    background-color: #ff8500;
+    width: 100%;
+    height: 1px;
+}
+.containerSettingsGeneral{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 15px;
+}
+.containerButtonActionContentPage{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    height: 50px;
+}

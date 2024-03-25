@@ -7,7 +7,7 @@ import Video from '../../components/Video/Video';
 function SliderYoutube(props) {
 
   useEffect(() => {
-
+    console.log(props.video);
   }, []);
 
   const videos =
@@ -25,7 +25,7 @@ function SliderYoutube(props) {
 
   return (
     <div className="SliderYoutube">
-      <Title id={props.id} title={'Official Music Videos'} marginBottom={true} />
+      <Title id={props.id} title={props.title} marginBottom={true} />
       {props.videos ?
         <Slider link={props.link} components={videos} color={props.color} />
       : 
